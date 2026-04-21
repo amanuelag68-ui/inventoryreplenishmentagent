@@ -1,0 +1,40 @@
+=== DAILY AGENT LOG (first 20 rows) ===
+      date     policy   sku  arrivals_today  demand  forecast  safety_stock  on_hand_end  pipeline_qty  inventory_position  projected_inventory_after_horizon action  order_qty                                                                                                    reason
+2026-01-01 agent_ewma BEANS               0      10      0.00             3           85             0                  95                                 65   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-01 agent_ewma PASTA               0      18      0.00             4          152             0                 170                                 98   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-01 agent_ewma  RICE               0      19      0.00             4          101             0                 120                                 25   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-02 agent_ewma BEANS               0      11     10.00             3           74             0                  85                                 55   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-02 agent_ewma PASTA               0      20     18.00             4          132             0                 152                                 80   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-02 agent_ewma  RICE               0      18     19.00             4           83             0                 101                                  6   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-03 agent_ewma BEANS               0      12     10.35             3           62             0                  74                                 42   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-03 agent_ewma PASTA               0      21     18.70             7          111             0                 132                                 57   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-03 agent_ewma  RICE               0      17     18.65             4           66             0                  83                                -11  ORDER         35 Inventory position 83 is at/below reorder point 98; ordered 35 units to cover 5 days plus safety stock 4.
+2026-01-04 agent_ewma BEANS               0      12     10.93             3           50             0                  62                                 29   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-04 agent_ewma PASTA               0      23     19.51             8           88             0                 111                                 32   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-04 agent_ewma  RICE               0      16     18.07             5           50            35                 101                                 10   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-05 agent_ewma BEANS               0      12     11.30             3           38             0                  50                                 16   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-05 agent_ewma PASTA               0      23     20.73             9           65             0                  88                                  5  ORDER         40 Inventory position 88 is at/below reorder point 92; ordered 40 units to cover 4 days plus safety stock 9.
+2026-01-05 agent_ewma  RICE               0      16     17.35             6           34            35                  85                                 -2  ORDER         35 Inventory position 85 is at/below reorder point 93; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-06 agent_ewma BEANS               0      13     11.55             3           25             0                  38                                  3   WAIT          0                                At reorder threshold, but no net replenishment needed after cap guardrail.
+2026-01-06 agent_ewma PASTA               0      24     21.52             9           41            40                 105                                 18   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-06 agent_ewma  RICE               0      15     16.88             6           19            70                 104                                 19   WAIT          0                                                 Projected inventory is sufficient through review horizon.
+2026-01-07 agent_ewma BEANS               0      16     12.06             3            9             0                  25                                -12  ORDER         30 Inventory position 25 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-07 agent_ewma PASTA               0      23     22.39             9           18            40                  81                                 -9  ORDER         40 Inventory position 81 is at/below reorder point 99; ordered 40 units to cover 4 days plus safety stock 9.
+
+=== AGENT METRICS ===
+    policy   sku  demand_units  filled_units  stockout_units  fill_rate  orders_placed  units_ordered  holding_cost  stockout_cost  order_cost  total_cost  service_level_target
+agent_ewma BEANS           989           978              11     0.9889             31            930         36.58           60.5         0.0       97.08                  0.90
+agent_ewma PASTA          1833          1826               7     0.9962             44           1760         83.73           56.0         0.0      139.73                  0.95
+agent_ewma  RICE          1229          1222               7     0.9943             34           1190         59.22           42.0         0.0      101.22                  0.93
+
+=== BASELINE METRICS ===
+      policy   sku  demand_units  filled_units  stockout_units  fill_rate  orders_placed  units_ordered  holding_cost  stockout_cost  order_cost  total_cost  service_level_target
+baseline_avg BEANS           989           972              17     0.9828             31            930         34.06           93.5         0.0      127.56                  0.90
+baseline_avg PASTA          1833          1790              43     0.9765             42           1680         78.27          344.0         0.0      422.27                  0.95
+baseline_avg  RICE          1229          1189              40     0.9675             33           1155         58.82          240.0         0.0      298.82                  0.93
+
+=== COMPARISON VS BASELINE ===
+  sku  fill_rate_agent  fill_rate_baseline  fill_rate_change  total_cost_agent  total_cost_baseline  total_cost_change
+BEANS           0.9889              0.9828            0.0061             97.08               127.56             -30.48
+PASTA           0.9962              0.9765            0.0197            139.73               422.27            -282.54
+ RICE           0.9943              0.9675            0.0268            101.22               298.82            -197.60

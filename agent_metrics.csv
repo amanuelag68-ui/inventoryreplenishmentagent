@@ -1,0 +1,4 @@
+policy,sku,demand_units,filled_units,stockout_units,fill_rate,orders_placed,units_ordered,holding_cost,stockout_cost,order_cost,total_cost,service_level_target
+agent_ewma,BEANS,989,978,11,0.9889,31,930,36.58,60.5,0.0,97.08,0.9
+agent_ewma,PASTA,1833,1826,7,0.9962,44,1760,83.73,56.0,0.0,139.73,0.95
+agent_ewma,RICE,1229,1222,7,0.9943,34,1190,59.22,42.0,0.0,101.22,0.93

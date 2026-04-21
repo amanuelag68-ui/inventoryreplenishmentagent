@@ -1,0 +1,271 @@
+date,policy,sku,arrivals_today,demand,forecast,safety_stock,on_hand_end,pipeline_qty,inventory_position,projected_inventory_after_horizon,action,order_qty,reason
+2026-01-01,agent_ewma,BEANS,0,10,0.0,3,85,0,95,65,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-01,agent_ewma,PASTA,0,18,0.0,4,152,0,170,98,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-01,agent_ewma,RICE,0,19,0.0,4,101,0,120,25,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-02,agent_ewma,BEANS,0,11,10.0,3,74,0,85,55,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-02,agent_ewma,PASTA,0,20,18.0,4,132,0,152,80,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-02,agent_ewma,RICE,0,18,19.0,4,83,0,101,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-03,agent_ewma,BEANS,0,12,10.35,3,62,0,74,42,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-03,agent_ewma,PASTA,0,21,18.7,7,111,0,132,57,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-03,agent_ewma,RICE,0,17,18.65,4,66,0,83,-11,ORDER,35,Inventory position 83 is at/below reorder point 98; ordered 35 units to cover 5 days plus safety stock 4.
+2026-01-04,agent_ewma,BEANS,0,12,10.93,3,50,0,62,29,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-04,agent_ewma,PASTA,0,23,19.51,8,88,0,111,32,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-04,agent_ewma,RICE,0,16,18.07,5,50,35,101,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-05,agent_ewma,BEANS,0,12,11.3,3,38,0,50,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-05,agent_ewma,PASTA,0,23,20.73,9,65,0,88,5,ORDER,40,Inventory position 88 is at/below reorder point 92; ordered 40 units to cover 4 days plus safety stock 9.
+2026-01-05,agent_ewma,RICE,0,16,17.35,6,34,35,85,-2,ORDER,35,Inventory position 85 is at/below reorder point 93; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-06,agent_ewma,BEANS,0,13,11.55,3,25,0,38,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-01-06,agent_ewma,PASTA,0,24,21.52,9,41,40,105,18,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-06,agent_ewma,RICE,0,15,16.88,6,19,70,104,19,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-07,agent_ewma,BEANS,0,16,12.06,3,9,0,25,-12,ORDER,30,Inventory position 25 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-07,agent_ewma,PASTA,0,23,22.39,9,18,40,81,-9,ORDER,40,Inventory position 81 is at/below reorder point 99; ordered 40 units to cover 4 days plus safety stock 9.
+2026-01-07,agent_ewma,RICE,35,14,16.22,6,40,35,89,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-08,agent_ewma,BEANS,0,13,13.44,4,0,30,39,-2,ORDER,30,Inventory position 39 is at/below reorder point 45; ordered 30 units to cover 3 days plus safety stock 4.
+2026-01-08,agent_ewma,PASTA,40,24,22.6,8,34,40,98,7,ORDER,40,Inventory position 98 is at/below reorder point 99; ordered 40 units to cover 4 days plus safety stock 8.
+2026-01-08,agent_ewma,RICE,0,19,15.44,6,21,35,75,-3,ORDER,35,Inventory position 75 is at/below reorder point 84; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-09,agent_ewma,BEANS,30,12,13.28,4,18,30,60,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-09,agent_ewma,PASTA,0,23,23.09,7,11,80,114,21,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-09,agent_ewma,RICE,35,15,16.69,7,41,35,91,7,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-01-10,agent_ewma,BEANS,30,13,12.83,4,35,0,48,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-10,agent_ewma,PASTA,40,25,23.06,7,26,40,91,-2,ORDER,40,Inventory position 91 is at/below reorder point 100; ordered 40 units to cover 4 days plus safety stock 7.
+2026-01-10,agent_ewma,RICE,0,17,16.1,7,24,35,76,-5,ORDER,35,Inventory position 76 is at/below reorder point 88; ordered 35 units to cover 5 days plus safety stock 7.
+2026-01-11,agent_ewma,BEANS,0,12,12.89,3,23,0,35,-4,ORDER,30,Inventory position 35 is at/below reorder point 42; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-11,agent_ewma,PASTA,40,24,23.74,7,42,40,106,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-11,agent_ewma,RICE,0,15,16.41,6,9,70,94,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-12,agent_ewma,BEANS,0,13,12.58,3,10,30,53,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-12,agent_ewma,PASTA,0,24,23.83,6,18,40,82,-14,ORDER,40,Inventory position 82 is at/below reorder point 102; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-12,agent_ewma,RICE,35,17,15.92,6,27,35,79,-1,ORDER,35,Inventory position 79 is at/below reorder point 86; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-13,agent_ewma,BEANS,30,11,12.73,3,29,0,40,1,ORDER,30,Inventory position 40 is at/below reorder point 42; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-13,agent_ewma,PASTA,40,26,23.89,6,32,40,98,2,ORDER,40,Inventory position 98 is at/below reorder point 102; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-13,agent_ewma,RICE,0,14,16.3,6,13,70,97,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-14,agent_ewma,BEANS,0,13,12.12,3,16,30,59,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-14,agent_ewma,PASTA,0,22,24.63,6,10,80,112,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-14,agent_ewma,RICE,35,13,15.49,6,35,35,83,5,ORDER,35,Inventory position 83 is at/below reorder point 84; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-15,agent_ewma,BEANS,30,12,12.43,3,34,0,46,8,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-15,agent_ewma,PASTA,40,23,23.71,6,27,40,90,-5,ORDER,40,Inventory position 90 is at/below reorder point 101; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-15,agent_ewma,RICE,0,12,14.62,6,23,70,105,31,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-16,agent_ewma,BEANS,0,11,12.28,3,23,0,34,-3,ORDER,30,Inventory position 34 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-16,agent_ewma,PASTA,40,23,23.46,6,44,40,107,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-16,agent_ewma,RICE,35,11,13.7,7,47,35,93,24,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-17,agent_ewma,BEANS,0,10,11.83,3,13,30,53,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-17,agent_ewma,PASTA,0,20,23.3,6,24,40,84,-10,ORDER,40,Inventory position 84 is at/below reorder point 100; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-17,agent_ewma,RICE,0,12,12.76,7,35,35,82,18,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-18,agent_ewma,BEANS,30,8,11.19,3,35,0,43,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-18,agent_ewma,PASTA,40,22,22.14,6,42,40,104,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-18,agent_ewma,RICE,35,14,12.49,7,56,0,70,7,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-01-19,agent_ewma,BEANS,0,9,10.07,3,26,0,35,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-19,agent_ewma,PASTA,0,25,22.09,6,17,40,82,-7,ORDER,40,Inventory position 82 is at/below reorder point 95; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-19,agent_ewma,RICE,0,10,13.02,7,46,0,56,-10,ORDER,35,Inventory position 56 is at/below reorder point 73; ordered 35 units to cover 5 days plus safety stock 7.
+2026-01-20,agent_ewma,BEANS,0,9,9.7,3,17,0,26,-4,ORDER,30,Inventory position 26 is at/below reorder point 33; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-20,agent_ewma,PASTA,40,18,23.11,6,39,40,97,4,ORDER,40,Inventory position 97 is at/below reorder point 99; ordered 40 units to cover 4 days plus safety stock 6.
+2026-01-20,agent_ewma,RICE,0,11,11.96,7,35,35,81,21,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-21,agent_ewma,BEANS,0,8,9.45,3,9,30,47,18,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-21,agent_ewma,PASTA,0,19,21.32,6,20,80,119,33,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-21,agent_ewma,RICE,0,12,11.63,7,23,35,70,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-22,agent_ewma,BEANS,30,9,8.94,3,30,0,39,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-22,agent_ewma,PASTA,40,18,20.51,7,42,40,100,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-22,agent_ewma,RICE,0,10,11.76,6,13,35,58,-1,ORDER,35,Inventory position 58 is at/below reorder point 65; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-23,agent_ewma,BEANS,0,10,8.96,3,20,0,30,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-01-23,agent_ewma,PASTA,40,17,19.63,7,65,0,82,3,ORDER,40,Inventory position 82 is at/below reorder point 86; ordered 40 units to cover 4 days plus safety stock 7.
+2026-01-23,agent_ewma,RICE,35,10,11.14,6,38,35,83,27,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-24,agent_ewma,BEANS,0,10,9.33,3,10,0,20,-8,ORDER,30,Inventory position 20 is at/below reorder point 31; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-24,agent_ewma,PASTA,0,17,18.71,7,48,40,105,30,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-24,agent_ewma,RICE,0,12,10.74,6,26,35,73,19,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-25,agent_ewma,BEANS,0,8,9.56,3,2,30,40,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-25,agent_ewma,PASTA,0,19,18.11,7,29,40,88,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-25,agent_ewma,RICE,0,13,11.18,6,13,35,61,5,ORDER,35,Inventory position 61 is at/below reorder point 62; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-26,agent_ewma,BEANS,30,10,9.02,3,22,0,32,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-26,agent_ewma,PASTA,40,16,18.42,7,53,0,69,-5,ORDER,40,Inventory position 69 is at/below reorder point 81; ordered 40 units to cover 4 days plus safety stock 7.
+2026-01-26,agent_ewma,RICE,35,12,11.82,6,36,35,83,23,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-27,agent_ewma,BEANS,0,10,9.36,3,12,0,22,-7,ORDER,30,Inventory position 22 is at/below reorder point 32; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-27,agent_ewma,PASTA,0,15,17.57,7,38,40,93,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-27,agent_ewma,RICE,0,12,11.88,6,24,35,71,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-28,agent_ewma,BEANS,0,9,9.58,3,3,30,42,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-28,agent_ewma,PASTA,0,16,16.67,7,22,40,78,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-28,agent_ewma,RICE,0,12,11.92,6,12,35,59,-1,ORDER,35,Inventory position 59 is at/below reorder point 66; ordered 35 units to cover 5 days plus safety stock 6.
+2026-01-29,agent_ewma,BEANS,30,9,9.38,3,24,0,33,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-29,agent_ewma,PASTA,40,16,16.44,7,46,0,62,-4,ORDER,40,Inventory position 62 is at/below reorder point 73; ordered 40 units to cover 4 days plus safety stock 7.
+2026-01-29,agent_ewma,RICE,35,13,11.95,6,34,35,82,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-30,agent_ewma,BEANS,0,12,9.25,3,12,0,24,-4,ORDER,30,Inventory position 24 is at/below reorder point 31; ordered 30 units to cover 3 days plus safety stock 3.
+2026-01-30,agent_ewma,PASTA,0,14,16.28,6,32,40,86,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-30,agent_ewma,RICE,0,11,12.32,6,23,35,69,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-31,agent_ewma,BEANS,0,9,10.21,3,3,30,42,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-31,agent_ewma,PASTA,0,14,15.48,6,18,40,72,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-01-31,agent_ewma,RICE,0,12,11.86,6,11,35,58,-2,ORDER,35,Inventory position 58 is at/below reorder point 66; ordered 35 units to cover 5 days plus safety stock 6.
+2026-02-01,agent_ewma,BEANS,30,11,9.79,3,22,0,33,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-02-01,agent_ewma,PASTA,40,16,14.97,6,42,0,58,-2,ORDER,40,Inventory position 58 is at/below reorder point 66; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-01,agent_ewma,RICE,35,10,11.91,5,36,35,81,21,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-02,agent_ewma,BEANS,0,9,10.21,3,13,0,22,-9,ORDER,30,Inventory position 22 is at/below reorder point 34; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-02,agent_ewma,PASTA,0,18,15.33,6,24,40,82,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-02,agent_ewma,RICE,0,10,11.24,5,26,35,71,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-03,agent_ewma,BEANS,0,10,9.79,3,3,30,43,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-03,agent_ewma,PASTA,0,16,16.26,6,8,40,64,-2,ORDER,40,Inventory position 64 is at/below reorder point 72; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-03,agent_ewma,RICE,0,10,10.81,5,16,35,61,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-04,agent_ewma,BEANS,30,13,9.86,3,20,0,33,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-02-04,agent_ewma,PASTA,40,17,16.17,6,31,40,88,23,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-04,agent_ewma,RICE,35,12,10.52,5,39,0,51,-2,ORDER,35,Inventory position 51 is at/below reorder point 58; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-05,agent_ewma,BEANS,0,14,10.96,3,6,0,20,-13,ORDER,30,Inventory position 20 is at/below reorder point 36; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-05,agent_ewma,PASTA,0,16,16.46,6,15,40,71,5,ORDER,40,Inventory position 71 is at/below reorder point 72; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-05,agent_ewma,RICE,0,12,11.04,5,27,35,74,18,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-06,agent_ewma,BEANS,0,13,12.02,3,0,30,36,-1,ORDER,30,Inventory position 36 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-06,agent_ewma,PASTA,40,22,16.3,6,33,40,95,29,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-06,agent_ewma,RICE,0,13,11.38,5,14,35,62,5,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-02-07,agent_ewma,BEANS,30,13,12.37,3,17,30,60,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-07,agent_ewma,PASTA,0,20,18.29,6,13,40,73,-1,ORDER,40,Inventory position 73 is at/below reorder point 80; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-07,agent_ewma,RICE,0,13,11.94,5,1,35,49,-11,ORDER,35,Inventory position 49 is at/below reorder point 65; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-08,agent_ewma,BEANS,30,12,12.59,3,35,0,47,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-08,agent_ewma,PASTA,40,20,18.89,6,33,40,93,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-08,agent_ewma,RICE,35,13,12.31,5,23,35,71,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-09,agent_ewma,BEANS,0,12,12.38,3,23,0,35,-3,ORDER,30,Inventory position 35 is at/below reorder point 41; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-09,agent_ewma,PASTA,0,20,19.28,6,13,40,73,-5,ORDER,40,Inventory position 73 is at/below reorder point 84; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-09,agent_ewma,RICE,0,15,12.55,5,8,35,58,-5,ORDER,35,Inventory position 58 is at/below reorder point 68; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-10,agent_ewma,BEANS,0,11,12.25,3,12,30,53,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-10,agent_ewma,PASTA,40,21,19.53,6,32,40,93,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-10,agent_ewma,RICE,0,15,13.41,5,0,70,78,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-11,agent_ewma,BEANS,30,12,11.81,3,30,0,42,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-11,agent_ewma,PASTA,0,23,20.05,6,9,40,72,-9,ORDER,40,Inventory position 72 is at/below reorder point 87; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-11,agent_ewma,RICE,35,16,13.97,5,19,35,70,0,ORDER,35,Inventory position 70 is at/below reorder point 75; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-12,agent_ewma,BEANS,0,13,11.88,3,17,0,30,-6,ORDER,30,Inventory position 30 is at/below reorder point 39; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-12,agent_ewma,PASTA,40,25,21.08,6,24,40,89,4,ORDER,40,Inventory position 89 is at/below reorder point 91; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-12,agent_ewma,RICE,0,15,14.68,5,4,70,89,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-13,agent_ewma,BEANS,0,12,12.27,3,5,30,47,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-13,agent_ewma,PASTA,0,22,22.45,7,2,80,104,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-13,agent_ewma,RICE,35,15,14.79,5,24,35,74,0,ORDER,35,Inventory position 74 is at/below reorder point 79; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-14,agent_ewma,BEANS,30,14,12.18,3,21,0,35,-2,ORDER,30,Inventory position 35 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-14,agent_ewma,PASTA,40,23,22.29,6,19,40,82,-8,ORDER,40,Inventory position 82 is at/below reorder point 96; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-14,agent_ewma,RICE,0,17,14.86,5,7,70,94,19,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-15,agent_ewma,BEANS,0,14,12.81,3,7,30,51,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-15,agent_ewma,PASTA,40,25,22.54,6,34,40,99,8,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-15,agent_ewma,RICE,35,16,15.61,5,26,35,77,-2,ORDER,35,Inventory position 77 is at/below reorder point 84; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-16,agent_ewma,BEANS,30,13,13.23,3,24,0,37,-3,ORDER,30,Inventory position 37 is at/below reorder point 43; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-16,agent_ewma,PASTA,0,24,23.4,6,10,40,74,-20,ORDER,40,Inventory position 74 is at/below reorder point 100; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-16,agent_ewma,RICE,0,18,15.75,5,8,70,96,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-17,agent_ewma,BEANS,0,15,13.15,3,9,30,54,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-17,agent_ewma,PASTA,40,23,23.61,6,27,40,90,-5,ORDER,40,Inventory position 90 is at/below reorder point 101; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-17,agent_ewma,RICE,35,17,16.54,5,26,35,78,-5,ORDER,35,Inventory position 78 is at/below reorder point 88; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-18,agent_ewma,BEANS,30,12,13.8,3,27,0,39,-3,ORDER,30,Inventory position 39 is at/below reorder point 45; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-18,agent_ewma,PASTA,0,24,23.4,6,3,80,107,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-18,agent_ewma,RICE,0,18,16.7,5,8,70,96,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-19,agent_ewma,BEANS,0,9,13.17,3,18,30,57,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-19,agent_ewma,PASTA,40,23,23.61,6,20,40,83,-12,ORDER,40,Inventory position 83 is at/below reorder point 101; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-19,agent_ewma,RICE,35,16,17.15,5,27,35,78,-8,ORDER,35,Inventory position 78 is at/below reorder point 91; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-20,agent_ewma,BEANS,30,10,11.71,3,38,0,48,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-20,agent_ewma,PASTA,40,24,23.4,6,36,40,100,6,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-02-20,agent_ewma,RICE,0,16,16.75,5,11,70,97,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-21,agent_ewma,BEANS,0,10,11.11,3,28,0,38,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-21,agent_ewma,PASTA,0,22,23.61,6,14,40,76,-19,ORDER,40,Inventory position 76 is at/below reorder point 101; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-21,agent_ewma,RICE,35,19,16.49,5,27,35,81,-2,ORDER,35,Inventory position 81 is at/below reorder point 88; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-22,agent_ewma,BEANS,0,8,10.72,3,20,0,28,-5,ORDER,30,Inventory position 28 is at/below reorder point 36; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-22,agent_ewma,PASTA,40,24,23.04,6,30,40,94,1,ORDER,40,Inventory position 94 is at/below reorder point 99; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-22,agent_ewma,RICE,0,17,17.37,5,10,70,97,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-23,agent_ewma,BEANS,0,8,9.77,3,12,30,50,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-23,agent_ewma,PASTA,0,22,23.38,6,8,80,110,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-23,agent_ewma,RICE,35,16,17.24,5,29,35,80,-7,ORDER,35,Inventory position 80 is at/below reorder point 92; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-24,agent_ewma,BEANS,30,10,9.15,3,32,0,42,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-24,agent_ewma,PASTA,40,20,22.9,6,28,40,88,-4,ORDER,40,Inventory position 88 is at/below reorder point 98; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-24,agent_ewma,RICE,0,15,16.81,5,14,70,99,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-25,agent_ewma,BEANS,0,9,9.45,3,23,0,32,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-02-25,agent_ewma,PASTA,40,22,21.88,6,46,40,108,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-25,agent_ewma,RICE,35,16,16.17,5,33,35,84,3,ORDER,35,Inventory position 84 is at/below reorder point 86; ordered 35 units to cover 5 days plus safety stock 5.
+2026-02-26,agent_ewma,BEANS,0,11,9.29,3,12,0,23,-5,ORDER,30,Inventory position 23 is at/below reorder point 31; ordered 30 units to cover 3 days plus safety stock 3.
+2026-02-26,agent_ewma,PASTA,0,20,21.92,6,26,40,86,-2,ORDER,40,Inventory position 86 is at/below reorder point 94; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-26,agent_ewma,RICE,0,16,16.11,5,17,70,103,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-27,agent_ewma,BEANS,0,7,9.89,3,5,30,42,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-27,agent_ewma,PASTA,40,19,21.25,6,47,40,106,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-27,agent_ewma,RICE,35,16,16.07,5,36,35,87,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-28,agent_ewma,BEANS,30,9,8.88,3,26,0,35,8,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-02-28,agent_ewma,PASTA,0,18,20.46,6,29,40,87,5,ORDER,40,Inventory position 87 is at/below reorder point 88; ordered 40 units to cover 4 days plus safety stock 6.
+2026-02-28,agent_ewma,RICE,0,20,16.05,5,16,35,71,-10,ORDER,35,Inventory position 71 is at/below reorder point 86; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-01,agent_ewma,BEANS,0,9,8.92,3,17,0,26,-1,ORDER,30,Inventory position 26 is at/below reorder point 30; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-01,agent_ewma,PASTA,40,22,19.6,6,47,40,109,30,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-01,agent_ewma,RICE,35,14,17.43,5,37,35,86,-2,ORDER,35,Inventory position 86 is at/below reorder point 93; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-02,agent_ewma,BEANS,0,12,8.95,3,5,30,47,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-02,agent_ewma,PASTA,0,17,20.44,6,30,40,87,5,ORDER,40,Inventory position 87 is at/below reorder point 88; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-02,agent_ewma,RICE,0,15,16.23,5,22,70,107,25,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-03,agent_ewma,BEANS,30,8,10.02,3,27,0,35,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-03,agent_ewma,PASTA,40,18,19.24,6,52,40,110,33,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-03,agent_ewma,RICE,0,14,15.8,5,8,70,92,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-04,agent_ewma,BEANS,0,11,9.31,3,16,0,27,-1,ORDER,30,Inventory position 27 is at/below reorder point 31; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-04,agent_ewma,PASTA,0,15,18.8,6,37,40,92,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-04,agent_ewma,RICE,35,13,15.17,5,30,35,78,2,ORDER,35,Inventory position 78 is at/below reorder point 81; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-05,agent_ewma,BEANS,0,11,9.9,3,5,30,46,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-05,agent_ewma,PASTA,40,15,17.47,6,62,0,77,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-05,agent_ewma,RICE,35,12,14.41,5,53,35,100,27,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-06,agent_ewma,BEANS,30,10,10.29,3,25,0,35,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-06,agent_ewma,PASTA,0,15,16.61,6,47,0,62,-5,ORDER,40,Inventory position 62 is at/below reorder point 73; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-06,agent_ewma,RICE,0,14,13.57,5,39,35,88,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-07,agent_ewma,BEANS,0,11,10.19,3,14,0,25,-6,ORDER,30,Inventory position 25 is at/below reorder point 34; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-07,agent_ewma,PASTA,0,15,16.04,6,32,40,87,22,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-07,agent_ewma,RICE,0,14,13.72,5,25,35,74,5,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-03-08,agent_ewma,BEANS,0,12,10.47,3,2,30,44,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-08,agent_ewma,PASTA,0,16,15.68,6,16,40,72,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-08,agent_ewma,RICE,35,14,13.82,5,46,0,60,-10,ORDER,35,Inventory position 60 is at/below reorder point 75; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-09,agent_ewma,BEANS,30,10,11.01,3,22,0,32,-2,ORDER,30,Inventory position 32 is at/below reorder point 37; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-09,agent_ewma,PASTA,40,18,15.79,6,38,0,56,-8,ORDER,40,Inventory position 56 is at/below reorder point 70; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-09,agent_ewma,RICE,0,14,13.88,5,32,35,81,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-10,agent_ewma,BEANS,0,14,10.65,3,8,30,52,20,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-10,agent_ewma,PASTA,0,14,16.56,6,24,40,78,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-10,agent_ewma,RICE,0,12,13.92,5,20,35,67,-3,ORDER,35,Inventory position 67 is at/below reorder point 75; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-11,agent_ewma,BEANS,30,13,11.83,3,25,0,38,2,ORDER,30,Inventory position 38 is at/below reorder point 39; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-11,agent_ewma,PASTA,0,14,15.67,6,10,40,64,1,ORDER,40,Inventory position 64 is at/below reorder point 69; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-11,agent_ewma,RICE,0,12,13.25,5,8,70,90,23,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-12,agent_ewma,BEANS,0,15,12.24,3,10,30,55,18,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-12,agent_ewma,PASTA,40,18,15.08,6,32,40,90,29,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-12,agent_ewma,RICE,35,11,12.81,5,32,35,78,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-13,agent_ewma,BEANS,30,15,13.2,3,25,0,40,0,ORDER,30,Inventory position 40 is at/below reorder point 43; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-13,agent_ewma,PASTA,0,18,16.1,6,14,40,72,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-13,agent_ewma,RICE,0,11,12.18,5,21,35,67,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-14,agent_ewma,BEANS,0,12,13.83,3,13,30,55,13,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-14,agent_ewma,PASTA,40,17,16.77,6,37,0,54,-14,ORDER,40,Inventory position 54 is at/below reorder point 74; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-14,agent_ewma,RICE,35,10,11.77,5,46,0,56,-3,ORDER,35,Inventory position 56 is at/below reorder point 64; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-15,agent_ewma,BEANS,30,14,13.19,3,29,0,43,3,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-03-15,agent_ewma,PASTA,0,16,16.85,6,21,40,77,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-15,agent_ewma,RICE,0,12,11.15,5,34,35,81,25,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-16,agent_ewma,BEANS,0,12,13.47,3,17,0,29,-12,ORDER,30,Inventory position 29 is at/below reorder point 44; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-16,agent_ewma,PASTA,0,18,16.55,6,3,40,61,-6,ORDER,40,Inventory position 61 is at/below reorder point 73; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-16,agent_ewma,RICE,0,11,11.45,5,23,35,69,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-17,agent_ewma,BEANS,0,11,12.96,3,6,30,47,8,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-17,agent_ewma,PASTA,40,20,17.06,6,23,40,83,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-17,agent_ewma,RICE,0,11,11.29,5,12,35,58,1,ORDER,35,Inventory position 58 is at/below reorder point 62; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-18,agent_ewma,BEANS,30,12,12.27,3,24,0,36,-1,ORDER,30,Inventory position 36 is at/below reorder point 40; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-18,agent_ewma,PASTA,0,19,18.09,6,4,40,63,-10,ORDER,40,Inventory position 63 is at/below reorder point 79; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-18,agent_ewma,RICE,35,12,11.19,5,35,35,82,26,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-19,agent_ewma,BEANS,0,11,12.18,3,13,30,54,17,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-19,agent_ewma,PASTA,40,22,18.41,6,22,40,84,10,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-19,agent_ewma,RICE,0,10,11.47,5,25,35,70,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-20,agent_ewma,BEANS,30,9,11.77,3,34,0,43,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-20,agent_ewma,PASTA,0,23,19.66,6,0,40,62,-17,ORDER,40,Inventory position 62 is at/below reorder point 85; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-20,agent_ewma,RICE,0,11,10.96,5,14,35,60,5,WAIT,0,"At reorder threshold, but no net replenishment needed after cap guardrail."
+2026-03-21,agent_ewma,BEANS,0,9,10.8,3,25,0,34,1,ORDER,30,Inventory position 34 is at/below reorder point 36; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-21,agent_ewma,PASTA,40,24,20.83,6,16,40,80,-4,ORDER,40,Inventory position 80 is at/below reorder point 90; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-21,agent_ewma,RICE,35,12,10.97,5,37,0,49,-6,ORDER,35,Inventory position 49 is at/below reorder point 60; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-22,agent_ewma,BEANS,0,9,10.17,4,16,30,55,24,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-22,agent_ewma,PASTA,0,22,21.94,6,0,80,96,8,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-22,agent_ewma,RICE,0,12,11.33,5,25,35,72,15,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-23,agent_ewma,BEANS,30,11,9.76,3,35,0,46,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-23,agent_ewma,PASTA,40,21,21.96,6,19,40,80,-8,ORDER,40,Inventory position 80 is at/below reorder point 94; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-23,agent_ewma,RICE,0,12,11.57,5,13,35,60,2,ORDER,35,Inventory position 60 is at/below reorder point 63; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-24,agent_ewma,BEANS,0,10,10.19,3,25,0,35,4,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-24,agent_ewma,PASTA,40,23,21.63,6,36,40,99,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-24,agent_ewma,RICE,0,13,11.72,5,0,70,83,24,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-25,agent_ewma,BEANS,0,10,10.13,3,15,0,25,-6,ORDER,30,Inventory position 25 is at/below reorder point 34; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-25,agent_ewma,PASTA,0,24,22.11,6,12,40,76,-13,ORDER,40,Inventory position 76 is at/below reorder point 95; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-25,agent_ewma,RICE,35,11,12.17,5,24,35,70,9,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-26,agent_ewma,BEANS,0,9,10.08,3,6,30,45,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-26,agent_ewma,PASTA,40,25,22.77,6,27,40,92,0,ORDER,40,Inventory position 92 is at/below reorder point 98; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-26,agent_ewma,RICE,0,15,11.76,5,9,35,59,0,ORDER,35,Inventory position 59 is at/below reorder point 64; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-27,agent_ewma,BEANS,30,8,9.7,3,28,0,36,6,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-27,agent_ewma,PASTA,0,23,23.55,6,4,80,107,12,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-27,agent_ewma,RICE,35,12,12.89,5,32,35,79,14,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-28,agent_ewma,BEANS,0,10,9.11,3,18,0,28,0,ORDER,30,Inventory position 28 is at/below reorder point 31; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-28,agent_ewma,PASTA,40,25,23.36,6,19,40,84,-10,ORDER,40,Inventory position 84 is at/below reorder point 100; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-28,agent_ewma,RICE,0,11,12.58,5,21,35,67,4,ORDER,35,Inventory position 67 is at/below reorder point 68; ordered 35 units to cover 5 days plus safety stock 5.
+2026-03-29,agent_ewma,BEANS,0,11,9.42,3,7,30,48,19,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-29,agent_ewma,PASTA,40,27,23.93,6,32,40,99,3,ORDER,40,Inventory position 99 is at/below reorder point 102; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-29,agent_ewma,RICE,0,13,12.03,5,8,70,91,30,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-30,agent_ewma,BEANS,30,11,9.97,3,26,0,37,7,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-30,agent_ewma,PASTA,0,23,25.01,6,9,80,112,11,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-30,agent_ewma,RICE,35,13,12.37,5,30,35,78,16,WAIT,0,Projected inventory is sufficient through review horizon.
+2026-03-31,agent_ewma,BEANS,0,9,10.33,3,17,0,26,-5,ORDER,30,Inventory position 26 is at/below reorder point 34; ordered 30 units to cover 3 days plus safety stock 3.
+2026-03-31,agent_ewma,PASTA,40,25,24.3,6,24,40,89,-9,ORDER,40,Inventory position 89 is at/below reorder point 104; ordered 40 units to cover 4 days plus safety stock 6.
+2026-03-31,agent_ewma,RICE,0,12,12.59,5,18,35,65,2,ORDER,35,Inventory position 65 is at/below reorder point 68; ordered 35 units to cover 5 days plus safety stock 5.

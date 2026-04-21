@@ -1,0 +1,4 @@
+sku,unit_cost,holding_cost_per_day,stockout_cost,lead_time_days,min_order_qty,service_level
+PASTA,3.25,0.03,8.0,3,40,0.95
+RICE,2.1,0.025,6.0,4,35,0.93
+BEANS,1.85,0.02,5.5,2,30,0.9

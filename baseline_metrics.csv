@@ -1,0 +1,4 @@
+policy,sku,demand_units,filled_units,stockout_units,fill_rate,orders_placed,units_ordered,holding_cost,stockout_cost,order_cost,total_cost,service_level_target
+baseline_avg,BEANS,989,972,17,0.9828,31,930,34.06,93.5,0.0,127.56,0.9
+baseline_avg,PASTA,1833,1790,43,0.9765,42,1680,78.27,344.0,0.0,422.27,0.95
+baseline_avg,RICE,1229,1189,40,0.9675,33,1155,58.82,240.0,0.0,298.82,0.93
